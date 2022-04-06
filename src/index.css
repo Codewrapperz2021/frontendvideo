@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.14.0/css/all.css');
+
+
+input,
+strong,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+@media screen and (max-height: 630px) {
+  html,
+  body {
+    font-size: 80%;
+  }
+}
+
+.hidden {
+  display: none !important;
+}
+
+.width0 {
+  width: 0% !important;
+}
+
+.width-peer0 {
+  width: 45% !important;
+}
+
+.width-peer1 {
+  width: 45% !important;
+}
+.width-peer2 {
+  width: 30% !important;
+}
+.width-peer3 {
+  width: 28% !important;
+}
+.width-peer4 {
+  width: 28% !important;
+}
+.width-peer5 {
+  width: 28% !important;
+}
+.width-peer6 {
+  width: 25% !important;
+}
+
+.width-peer7 {
+  width: 25% !important;
+}
+.width-peer8 {
+  width: 25% !important;
+}
+
+.width-peer {
+  width: 20% !important;
+}
+.ant-select-multiple .ant-select-selection-item{
+  height: 35px;
+}
+.ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+  border-color: none !important;
+}
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  color: currentColor !important;
+  width: 100% !important;
+  border-top: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-bottom: 1px solid #43484d !important;
+  background-color: rgb(232, 232, 232) !important;
+}
+.ant-select-multiple .ant-select-selection-item-content {
+  color: black !important; 
+}
+.ant-select-multiple .ant-select-selection-placeholder {
+  margin-left: -7px !important;
+  color: #43484d;
+}
+.filter-option-inner-inner{
+  color:black !important;
+  outline: none !important;
+  border: 0 !important;
+}
+.bootstrap-select .btn{
+  border: 0px solid #d7dae3 !important
+}
+.MuiFormControl-root{
+  min-width: 100% !important;
+}
+.ant-select-selection-placeholder{
+  margin-left: -7px !important;
+  color: #43484d;
+}
+.ant-card-head{
+  text-align: center;
+  background-color: #3a7afe
+}
+.ant-card-head-title{
+  color: white;
+}
+.ant-form-item{
+  margin-right: 8%;
+    margin-left: -4%;
+}
