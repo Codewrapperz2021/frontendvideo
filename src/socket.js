@@ -1,5 +1,5 @@
 import io from "socket.io-client";
-const sockets = io("https://backendvideo.herokuapp.com", {
+const sockets = io("wss://backendvideo.herokuapp.com", {
   autoConnect: true,
   forceNew: true,
 });
